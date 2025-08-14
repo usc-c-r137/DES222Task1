@@ -53,12 +53,16 @@ body {
     max-height: 253px;
     background-color: #661B1C;
     opacity: 0.75;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
 }
 
 /* this is the equivalent of setting the image rectangle to "Fill Container" in Figma */ 
 .team-member-card-image {
     max-height: 100%;
     max-width: 50%;
+    margin-right: 5px;
+    border-radius: 25px;
     
 }
 
@@ -90,6 +94,7 @@ body {
 
 #imageFrame {
     display: flex;
+    border-radius: 25px;
     max-width: 568px;
     max-height: 532px;
     min-width: 100%;
